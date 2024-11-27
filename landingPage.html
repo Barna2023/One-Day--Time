@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Task Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>OneDay @Time Task Manager</h1>
+  </header>
+  <main>
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Enter your task" required />
+      <select id="taskState" required>
+        <option value="" disabled selected>Select Task State</option>
+        <option value="ongoing">Ongoing</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+        <option value="expired">Expired</option>
+      </select>
+      <button type="submit" id="addTaskButton">Add Task</button>
+    </form>
+    <div id="taskContainer"></div>
+  </main>
+  <script src="oneDay.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h2.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#taskContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-card p {
+    margin: 0;
+}
+
+.task-card .created-date,
+.task-card .target-date {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.task-card .overdue {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    align-self: flex-start;
+}
+
+/* The Added new CSS Style */
+
+  /* .task-card .created-date,
+.task-card .target-date {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.task-card .overdue {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    align-self: flex-start;
+} */
